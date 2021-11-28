@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; color: #FFF; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.google.com/specimen/Outfit">
+
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main>
+    <div class="card">
+      <section class="card__hero">
+        <img src="./images/icon-view.svg" alt="NFT preview view">
+        <div class="card__hero-view"></div>
+        <img src="./images/image-equilibrium.jpg" alt="NFT preview card">
+      </section>
+      
+      <a href="#">
+        <h1 class="card__title">Equilibrium #3429</h1>
+      </a>
+      <p class="card__subtitle">Our Equilibrium collection promotes balance and calm.</p>
+      
+      <section class="card__values">
+        <div class="card__values--amount">
+          <img src="./images/icon-ethereum.svg" alt="Balance">
+          <h2>0.041 ETH</h2>
+        </div>
+        <div class="card__values--date">
+          <img src="./images/icon-clock.svg" alt="Tokens">
+          <p>3 days left</p>
+        </div>
+      </section>
+      <hr>
+      <section class="card__footer">
+        <img src="./images/image-avatar.png">
+        <p class="card__footer--user">Creation of <a href="#"><strong>Jules Wyvern</strong></a></p>
+      </section>
+    </div>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Carlos Eduardo Umaña Acevedo</a>.
+  </footer>
+</body>
+</html>
