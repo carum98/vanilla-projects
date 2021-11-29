@@ -1,0 +1,60 @@
+body {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.clock {
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+
+  position: relative;
+}
+
+.needle {
+  position: absolute;
+
+  width: 5px;
+
+  background-color: #000;
+
+  top: 50%;
+  left: 50%;
+
+  border-radius: 50% 50% 0 0;
+
+  transform-origin: bottom center;
+  transform: translate(-50%, -100%) rotate(0deg);
+}
+
+#needle__hour {
+  height: 60px;
+}
+
+#needle__minute {
+  height: 80px;
+}
+
+#needle__second {
+  height: 90px;
+  background-color: #ff0000;
+}
+
+.date {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
