@@ -1,0 +1,1 @@
+![](../img/ripple-button.gif)
