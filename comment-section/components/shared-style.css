@@ -1,0 +1,45 @@
+.card {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+
+  margin-bottom: 1rem;
+}
+
+textarea {
+  height: 3rem;
+  border-color: var(--light_gray);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  resize: none;
+  flex-grow: 1;
+  font-family: "Roboto", sans-serif;
+}
+textarea::placeholder {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  background-color: var(--moderate_blue);
+  border: none;
+  color: var(--white);
+  border-radius: 0.5rem;
+  height: 2.5rem;
+  padding: 0 1.5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn--grey {
+  background-color: var(--light_gray);
+  color: var(--dark_gray);
+}
+
+.btn--danger {
+  background-color: red;
+  color: var(--white);
+}
+
+.btn:hover {
+  opacity: 0.4;
+}
