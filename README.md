@@ -19,3 +19,7 @@
 🗂  [NFT Card](https://github.com/carum98/vanilla-projects/tree/main/nft-card)
 
 ![](img/nft-card.png)
+
+🗂  [Comment Section](https://github.com/carum98/vanilla-projects/tree/main/comment-section)
+
+![](https://github.com/carum98/vanilla-projects/blob/main/comment-section/screenshots/desktop.png)
