@@ -8,7 +8,7 @@ class TheComment extends HTMLElement {
 
   static get styles() {
     return /* css */ `
-    @import "/components/shared-style.css";
+    @import "./components/shared-style.css";
 		.card {
       display: grid;
       grid-template-areas: "prepend header actions" 

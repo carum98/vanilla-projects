@@ -7,7 +7,7 @@ class TheModal extends HTMLElement {
 
   static get styles() {
     return /* css */ `
-	@import "/components/shared-style.css";
+	@import "./components/shared-style.css";
 		.modal {
 			position: fixed;
 			top: 0;

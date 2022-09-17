@@ -7,7 +7,7 @@ class CommentInput extends HTMLElement {
 
   static get styles() {
     return /* css */ `
-		@import "/components/shared-style.css";
+		@import "./components/shared-style.css";
 		.card {
 			display: flex;
 			align-items: flex-start;
